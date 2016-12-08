@@ -1,0 +1,142 @@
+html{
+	width:100%;
+	height:auto;
+	padding:0px;
+	margin:0px;
+	background-image: url("../assets/10st.jpg");
+	
+ }
+ body{
+	width:100%;
+	height:auto;
+	padding:0px;
+	margin:0px;
+	
+	
+ }
+#wrapper{
+	max-width:800px;
+	height:auto;
+	margin:auto;
+	overflow-y: auto;
+	overflow-x: hidden;
+	margin-top:50px;
+
+}
+page{
+	width:100%;
+	height:auto;
+}
+
+video{
+	width: 100%;
+	max-width: 800px;
+    height: auto;
+    
+}
+.positioner{
+	width: 100%;
+	max-width:800px;
+	height:auto;
+	position:relative;
+	left:0%;
+	top:0%;
+}
+.noshow{
+	display:none;
+}
+
+.blankButtontrue, .blankButtonfalse{
+	width:50%;
+	height:11.1%;
+	position:absolute;
+	cursor:pointer;
+	display:none;
+}
+.blankButtontrue:hover,.blankButtonfalse:hover{
+	border:2px solid;
+	border-radius: 5px;	
+}
+
+
+
+.peplay{
+	width:53%;
+	height:11.1%;
+	position:absolute;
+	cursor:pointer;
+	display:none;
+}
+.peplay:hover{
+	border:2px solid;
+	border-radius: 5px;	
+}
+
+
+.popups{position:fixed !important;}
+.pageBlocker{
+left:0px;
+top:0px;
+width:100%;
+height:100%;
+background-color:#000000;
+}
+
+.loader{
+width:32px;
+height:32px;
+left:50%;
+top:50%;
+margin-left:-33px;
+margin-top:-33px;
+}
+
+.transparent {
+  /* IE 8 */
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=80)";
+
+  /* IE 5-7 */
+  filter: alpha(opacity=80);
+
+  /* Netscape */
+  -moz-opacity: 0.8;
+
+  /* Safari 1.x */
+  -khtml-opacity: 0.8;
+
+  /* Good browsers */
+  opacity: 0.8;
+}
+.pause,.play{
+	width:32px;
+	height:32px;
+	position:absolute;
+	cursor:pointer;
+	display:none;
+	opacity: 0.7;
+    filter: alpha(opacity=70); /* For IE8 and earlier */
+}
+.likebtn,.dlikebtn{
+	width:20%;
+	height:24%;
+	position:absolute;
+	cursor:pointer;
+	
+}
+.formPosition{
+position:absolute;
+
+width:26.5%;
+height:5.5%;
+}
+
+.formPosition input{
+width:100%;
+height:100%;
+background:transparent;
+border:0px;
+color:#ff0000;
+font-size:15px;
+font-weight:bold;
+}
+

@@ -1,0 +1,195 @@
+html{
+	width:100%;
+	height:auto;
+	padding:0px;
+	margin:0px;
+	background: #eee;
+	
+ }
+ body{
+	width:100%;
+	height:auto;
+	padding:0px;
+	margin:0px;
+	
+	
+ }
+#wrapper{
+	max-width:800px;
+	height:auto;
+	margin:auto;
+	overflow-y: auto;
+	overflow-x: hidden;
+	margin-top:50px;
+
+}
+page{
+	width:100%;
+	height:auto;
+}
+
+video{
+	width: 100%;
+	max-width: 800px;
+    height: auto;
+    
+}
+.positioner{
+	width: 100%;
+	max-width:800px;
+	height:auto;
+	position:relative;
+	left:0%;
+	top:0%;
+}
+.noshow{
+	display:none;
+}
+
+.blankButtontrue, .blankButtonfalse{
+	width:50%;
+	height:11.1%;
+	position:absolute;
+	cursor:pointer;
+	display:none;
+}
+
+.blankButtontrue:hover{
+	background-image: url('../assets/NO_LFW.png');
+}
+.blankButtonfalse:hover{
+	background-image: url('../assets/LFW.png');
+}
+
+.peplay{
+	width:20%;
+	height:11.1%;
+	position:absolute;
+	cursor:pointer;
+	display:none;
+	margin-left: 39%;
+	top: 72%;
+}
+.peplay:hover{
+	background-image: url('../assets/try-again.png');	
+}
+
+
+.popups{position:fixed !important;}
+.pageBlocker{
+left:0px;
+top:0px;
+width:100%;
+height:100%;
+background-color:#000000;
+}
+
+.loader{
+width:32px;
+height:32px;
+left:50%;
+top:50%;
+margin-left:-33px;
+margin-top:-33px;
+}
+
+.transparent {
+  /* IE 8 */
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=80)";
+
+  /* IE 5-7 */
+  filter: alpha(opacity=80);
+
+  /* Netscape */
+  -moz-opacity: 0.8;
+
+  /* Safari 1.x */
+  -khtml-opacity: 0.8;
+
+  /* Good browsers */
+  opacity: 0.8;
+}
+.pause,.play{
+	width:32px;
+	height:32px;
+	position:absolute;
+	cursor:pointer;
+	display:none;
+	opacity: 0.7;
+    filter: alpha(opacity=70); /* For IE8 and earlier */
+}
+.likebtn,.dlikebtn{
+	width:20%;
+	height:24%;
+	position:absolute;
+	cursor:pointer;
+	
+}
+.formPosition{
+position:absolute;
+width:51%;
+height:22%;
+
+}
+
+.formPosition input{
+width:100%;
+height:100%;
+background:transparent;
+border:0px;
+color:#FFFFFF;
+font-size:15px;
+font-weight:bold;
+}
+textarea {
+	
+	background: transparent;
+	color: white;
+	font-size:15px;
+	font-weight:bold;
+	 border: none; 
+	
+}
+.skip{
+	width:12%;
+	height:11.1%;
+	position:absolute;
+	cursor:pointer;
+}
+
+.skip:hover{
+	background-image: url('../assets/skip.png');	
+}
+#popUpYes:hover{
+	background-image: url('../assets/submit.png');	
+}
+.rept{
+	background-image: url('../assets/wachagain.png');	
+	position:absolute;
+	cursor:pointer;
+}
+.end{
+	background-image: url('../assets/Exit.png');	
+	position:absolute;
+	cursor:pointer;
+}
+.rept:hover{
+	background-image: url('../assets/wachagain_over.png');	
+}.end:hover{
+	background-image: url('../assets/Exit_over.png');	
+}
+.dime{
+	width:100%;
+	height:100%;
+	position:absolute;
+	background-color :#eee;
+	top:0%;
+	opacity: 0.5;
+    filter: alpha(opacity=50); /* For IE8 and earlier */
+}
+
+video.background {
+  background: black;
+}
+
+

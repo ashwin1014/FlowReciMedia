@@ -1,0 +1,224 @@
+html, body{
+ width:100%;
+ height:100%;
+ padding:0px;
+ margin:0px;
+ background-color:#000;
+ }
+
+ body{
+ background-image:url("../assets/main.jpg");
+ background-repeat:no-repeat;
+ background-size:cover;
+ }
+ 
+#wrapper{
+width:800px;
+height:auto;;
+margin:auto;
+overflow-y: auto;
+overflow-x: hidden;
+margin-top:50px;
+
+}
+
+.page{
+width:100%;
+height:100%;
+}
+
+.poster{
+position:absolute;
+left:50%;
+top:0px;
+margin-left:-400px;
+}
+
+
+.poster img{
+width:800px;
+height:450px
+border:0px;
+}
+
+.noshow{
+display:none;
+}
+ 
+.noSkip{
+width:88px;
+height:34px;
+position:absolute;
+right:0px;
+bottom:0px;
+background-image:url("../assets/button.png");
+cursor:pointer;
+}
+.noSkip1{
+width:88px;
+height:34px;
+position:absolute;
+right:0px;
+bottom:0px;
+background-image:url("../assets/button.png");
+cursor:pointer;
+}
+
+.blankButton{
+width:150px;
+height:115px;
+position:absolute;
+
+cursor:pointer;
+}
+
+
+.watching{
+width:459px;
+height:295px;
+position:absolute;
+left:50%;
+top:50%;
+margin-left:-229px;
+margin-top:-147px;
+background-image:url("../assets/watching.png");
+
+
+}
+
+.positioner{
+width:800px;
+height:450px;
+position:relative;
+left:0px;
+top:0px;
+}
+
+.mainPlayButton{
+width:128px;
+height:128px;
+position:absolute;
+left:50%;
+top:50%;
+margin-left:-64px;
+margin-top:-64px;
+background-image:url("../images/playButton.png");
+cursor:pointer;
+display:none;
+}
+
+.form{
+width:800px;
+height:1339px !important;
+background-image:url("../images/Form.jpg");
+
+}
+
+.formPosition{
+position:absolute;
+
+width:330px;
+height:37px;
+}
+
+.formPosition input{
+width:330px;
+height:37px;
+background:transparent;
+border:0px;
+color:#FFFFFF;
+font-size:15px;
+font-weight:bold;
+}
+
+.thankyou{
+width:800px;
+height:565px !important;
+background-image:url("..images/thankyou.jpg");
+
+}
+.thakuPosition{
+position:absolute;
+
+width:88px;
+height:88px;
+}
+
+
+.popups{position:fixed !important;}
+.pageBlocker{
+left:0px;
+top:0px;
+width:100%;
+height:100%;
+background-color:#000000;
+}
+
+.loader{
+width:32px;
+height:32px;
+left:50%;
+top:50%;
+margin-left:-33px;
+margin-top:-33px;
+}
+
+.transparent {
+  /* IE 8 */
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=80)";
+
+  /* IE 5-7 */
+  filter: alpha(opacity=80);
+
+  /* Netscape */
+  -moz-opacity: 0.8;
+
+  /* Safari 1.x */
+  -khtml-opacity: 0.8;
+
+  /* Good browsers */
+  opacity: 0.8;
+}
+
+
+.instructions{
+width:491px;
+height:352px;
+background-image:url("../images/instrection box_01.jpg");
+position:absolute;
+left:50%;
+top:42%;
+margin-left:-245px;
+margin-top:-176px;
+cursor:pointer;
+}
+
+.skipgame{
+width:190px;
+height:59px;
+background-image:url("../images/skip_button.png");
+position:absolute;
+left:50%;
+top:72%;
+    margin-left: -90px;
+cursor:pointer;}
+
+
+.startBanner{
+width:800px;
+height:450px;
+position:absolute;
+left:0px;
+top:25px;
+background-image:url("../images/banner.jpg");
+cursor:pointer;
+}
+
+.greymaker{
+width:100%;
+height:100%;
+position:fixed;
+left:0px;
+top:0px;
+background-color:#000000;
+}
